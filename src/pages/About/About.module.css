@@ -1,0 +1,24 @@
+.about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p{
+    color: #646464;
+    margin-bottom: 1em;
+}
+
+.about p a{
+    display: inline;
+    font-weight: 600;
+    padding: 0;
+    color: #646464;
+}
+
+.about a{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+}

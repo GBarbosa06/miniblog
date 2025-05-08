@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+}
+
+.logo {
+    font-size: 1.2em;
+}
+
+.logo span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links_list {
+    display: flex;
+    list-style: none;
+}
+
+.links_list li {
+    margin-right: 1em;
+}
+
+.links_list li a{
+    padding: .4em .6em;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 10px 0px;
+}
